@@ -1,3 +1,3 @@
-# Web Crawler
+# Java Exercises
 
-Exercise to crawl a site from a starting URL.
+Exercises to get buff in Java.
