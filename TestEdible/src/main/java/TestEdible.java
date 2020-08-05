@@ -1,3 +1,5 @@
+package main.java;
+
 public class TestEdible {
     public static void main(String[] args) {
 
@@ -33,7 +35,7 @@ abstract class Animal {
 
 }
 
-class Chicken implements Edible {
+class Chicken extends Animal implements Edible {
 
     @Override
     public String howToEat() {
@@ -64,12 +66,5 @@ class Apple implements Edible {
     }
 
 }
-
-public interface Edible {
-
-    public abstract howToEat();
-    
-}
-
 
 
